@@ -1,0 +1,9 @@
+---
+applications:
+  - path:public
+    name: oneshot
+    memory: 256
+    instances: 1
+    random-route: true
+    buildpack:
+    - https://github.com/cloudfoundry/staticfile-buildpack
